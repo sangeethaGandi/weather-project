@@ -1,0 +1,513 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* #bg-image{
+background-image:url("./assets/weatherBackImages/clear-night") ;
+background-size: cover;
+height: 100%;
+background-repeat: no-repeat;
+padding: 30px;
+
+}
+#container{
+display: flex;
+justify-content: center;
+}
+
+.left-side{
+    
+    background-color:#d2d3d6 ;
+    border-radius: 10px 0px 0px 10px;
+   
+}
+.right-side{
+
+    background-color:  #f6f6f8;
+    border-radius:0px 10px 10px 0px ;
+    padding: 30px;    
+}
+.weather-cards{
+display: grid;
+grid-template-columns: repeat(5,0fr);
+row-gap:10px ;
+column-gap:10px ;
+margin: 20px;
+
+}
+.weather-cards section{
+ height:110px ;
+ width: 120px;
+ background-color:#ffffff ;
+ border-radius:10px;
+ 
+}
+.heading ul{
+display: flex;
+gap: 20px;
+}
+
+.heading li{
+list-style: none;
+}
+
+.heading li + span{
+    margin-left: 500px;
+}
+
+
+.highlights{
+display: grid;
+grid-template-columns:repeat(2,0fr) ;
+row-gap:10px ;
+column-gap: 10px;
+padding:50px ;
+}
+.highlights section{
+height: 100px;
+width:220px ;
+background-color:#ffffff ;
+padding:25px ;
+border-radius:10px ;
+margin:15px ;
+
+}
+.left-side button{
+background: #5399ed; 
+border: none;
+padding: 8px;
+border-radius:0px 5px 5px 0px ;
+margin-left: -15px;
+}
+.left-side input{
+  padding:8px ;
+  border-radius:0px 5px 5px 0px ; 
+  border: none; 
+  margin: 10px;
+}
+.searchBar{
+   display: flex;
+} */
+
+/* higher resoultions */
+@media (min-width: 1281px) {
+    #bg-image {
+        background-image: url("./assets/weatherBackImages/clear-night");
+        background-size: cover;
+        height: 100%;
+        background-repeat: no-repeat;
+        padding: 30px;
+
+    }
+
+    #container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .left-side {
+
+        background-color: #d2d3d6;
+        border-radius: 10px 0px 0px 10px;
+        padding: 20px;
+
+    }
+
+    .right-side {
+
+        background-color: #f6f6f8;
+        border-radius: 0px 10px 10px 0px;
+        padding: 30px;
+    }
+
+    .weather-cards {
+        display: grid;
+        grid-template-columns: repeat(5, 0fr);
+        row-gap: 10px;
+        column-gap: 10px;
+        margin: 20px;
+
+    }
+
+    .weather-cards section {
+        height: 110px;
+        width: 120px;
+        background-color: #ffffff;
+        border-radius: 10px;
+
+    }
+
+    .heading ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    .heading li {
+        list-style: none;
+    }
+
+    .heading li+span {
+        margin-left: 500px;
+    }
+
+
+    .highlights {
+        display: grid;
+        grid-template-columns: repeat(2, 0fr);
+        row-gap: 10px;
+        column-gap: 10px;
+        padding: 50px;
+    }
+
+    .highlights section {
+        height: 100px;
+        width: 220px;
+        background-color: #ffffff;
+        padding: 25px;
+        border-radius: 10px;
+        margin: 15px;
+
+    }
+
+    .left-side button {
+        background: #5399ed;
+        border: none;
+        padding: 8px;
+        border-radius: 0px 5px 5px 0px;
+        margin-left: -15px;
+    }
+
+    .left-side input {
+        padding: 8px;
+        border-radius: 5px 0px 0px 5px;
+        border: none;
+
+    }
+
+    .searchBar {
+        display: flex;
+    }
+}
+
+
+/* laptop */
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    #bg-image {
+        background-image: url("./assets/weatherBackImages/clear-night");
+        background-size: cover;
+        height: 100%;
+        background-repeat: no-repeat;
+        padding: 30px;
+
+    }
+
+    #container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .left-side {
+
+        background-color: #d2d3d6;
+        border-radius: 10px 0px 0px 10px;
+        padding: 20px;
+
+    }
+
+    .right-side {
+
+        background-color: #f6f6f8;
+        border-radius: 0px 10px 10px 0px;
+        padding: 30px;
+    }
+
+    .weather-cards {
+        display: grid;
+        grid-template-columns: repeat(5, 0fr);
+        row-gap: 10px;
+        column-gap: 10px;
+        margin: 20px;
+
+    }
+
+    .weather-cards section {
+        height: 110px;
+        width: 120px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        display:flex ;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+
+    }
+
+    .weather-cards section img{
+        height: 60px;
+        width: 60px;
+        margin:10px ;
+   
+    }
+
+    .heading ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    .heading li {
+        list-style: none;
+    }
+
+    .heading li+span {
+        margin-left: 500px;
+    }
+
+
+    .highlights {
+        display: grid;
+        grid-template-columns: repeat(2, 0fr);
+        row-gap: 10px;
+        column-gap: 10px;
+        padding: 50px;
+    }
+
+    .highlights section {
+        height: 100px;
+        width: 220px;
+        background-color: #ffffff;
+        padding: 25px;
+        border-radius: 10px;
+        margin: 15px;
+
+    }
+
+    .left-side button {
+        background: #5399ed;
+        border: none;
+        padding: 8px;
+        border-radius: 0px 5px 5px 0px;
+        margin-left: -15px;
+    }
+
+    .left-side input {
+        padding: 8px;
+        border-radius: 5px 0px 0px 5px;
+        border: none;
+
+    }
+
+    .searchBar {
+        display: flex;
+    }
+}
+
+/* tablets and ipads portrait */
+@media (min-width: 768px) and (max-width: 1023px) {
+    #bg-image {
+        background-image: url("./assets/weatherBackImages/clear-night");
+        background-size: cover;
+        height: 100%;
+        background-repeat: no-repeat;
+        padding: 15px;
+
+    }
+
+    #container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .left-side {
+
+        background-color: #d2d3d6;
+        border-radius: 10px 0px 0px 10px;
+        padding: 10px;
+
+    }
+
+    .right-side {
+
+        background-color: #f6f6f8;
+        border-radius: 0px 10px 10px 0px;
+        padding: 10px;
+    }
+
+    .weather-cards {
+        display: grid;
+        grid-template-columns: repeat(4, 0fr);
+        row-gap: 10px;
+        column-gap: 10px;
+        
+
+    }
+
+    .weather-cards section {
+        height: 110px;
+        width: 110px;
+        background-color: #ffffff;
+        border-radius: 10px;
+
+    }
+
+    .heading ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    .heading li {
+        list-style: none;
+    }
+
+    .heading li+span {
+        margin-left: 300px;
+    }
+
+
+    .highlights {
+        display: grid;
+        grid-template-columns: repeat(2, 0fr);
+        row-gap: 10px;
+        column-gap: 10px;
+        padding: 50px;
+    }
+
+    .highlights section {
+        height: 100px;
+        width: 120px;
+        background-color: #ffffff;
+        padding: 25px;
+        border-radius: 10px;
+        margin: 15px;
+
+    }
+
+    .left-side button {
+        background: #5399ed;
+        border: none;
+        padding: 8px;
+        border-radius: 0px 5px 5px 0px;
+        margin-left: -15px;
+    }
+
+    .left-side input {
+        padding: 8px;
+        border-radius: 5px 0px 0px 5px;
+        border: none;
+
+    }
+
+    .searchBar {
+        display: flex;
+
+    }
+}
+
+/* mobiles ,smart phones  */
+@media (min-width: 320px) and (max-width: 480px) {
+
+    #bg-image {
+        background-image: url("./assets/weatherBackImages/clear-night");
+        background-size: cover;
+        height: 100%;
+        background-repeat: no-repeat;
+        padding: 10px;
+
+    }
+
+    #container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .left-side {
+
+        background-color: #d2d3d6;
+        border-radius: 10px 10px 0px 0px;
+        padding: 20px;
+
+    }
+
+    .right-side {
+
+        background-color: #f6f6f8;
+        border-radius: 0px 0px 10px 10px;
+        padding: 30px;
+    }
+
+    .weather-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 0fr);
+        row-gap: 10px;
+        column-gap: 10px;
+        margin: 5px;
+
+    }
+
+    .weather-cards section {
+        height: 100px;
+        width: 100px;
+        background-color: #ffffff;
+        border-radius: 10px;
+
+    }
+
+    .heading ul {
+        display: flex;
+        gap: 10px;
+    }
+
+    .heading li a {
+        list-style-type: none;
+        text-decoration: none;
+
+    }
+
+    .heading li {
+        list-style:none ;
+    }
+
+    .heading li+span {
+        margin-left: 200px;
+    }
+
+
+    .highlights {
+        display: grid;
+        grid-template-columns: repeat(2, 0fr);
+        row-gap: 10px;
+        column-gap: 10px;
+        padding: 30px;
+    }
+
+    .highlights section {
+        height: 70px;
+        width: 70px;
+        background-color: #ffffff;
+        padding: 25px;
+        border-radius: 10px;
+        /* margin:15px ; */
+
+    }
+
+    .left-side button {
+        background: #5399ed;
+        border: none;
+        padding: 8px;
+        border-radius: 0px 5px 5px 0px;
+        margin-left: -15px;
+    }
+
+    .left-side input {
+        padding: 8px;
+        border-radius: 5px 0px 0px 5px;
+        border: none;
+
+    }
+
+    .searchBar {
+        display: flex;
+    }
+}
