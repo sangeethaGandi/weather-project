@@ -199,7 +199,7 @@ margin-left: -15px;
         background-size: cover;
         height: 100%;
         background-repeat: no-repeat;
-        padding: 30px;
+        padding: 20px ;
 
     }
 
@@ -301,6 +301,24 @@ margin-left: -15px;
     .searchBar {
         display: flex;
     }
+.line{
+height: 1px;
+background-color: white;
+width: 100%;
+}
+.data{
+padding:10px ;
+margin:10px ;
+}
+.weather{
+padding:10px ;
+margin: 10px;
+}
+.location
+{
+ margin-top:1000px ;   
+}
+
 }
 
 /* tablets and ipads portrait */

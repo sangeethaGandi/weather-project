@@ -9,8 +9,9 @@
 
   </head>
   <body>
-    <!-- <section> -->
+    
       <div id="bg-image">
+      <!-- leftside starts here -->
       <section id="container">
         <aside class="left-side">
         <div class="searchBar">
@@ -21,20 +22,27 @@
         
         </div>
           <br><br>
-           <div>
+           <div class="data">
            <img src="./assets/weatherIcons/clear-day" height="200px"width="200px" alt="clearday">
-             <p>&#8451 <br> saturday,09:09 </p>
-             <h6><i class="fa-solid fa-cloud"></i></h6>
-             <span><i class="fa-solid fa-droplet"></i></span>
+             <p id="celsius">&#8451</p>
+             <p id="days">saturday </p>
+             </div> 
+           <div class="line">
+           </div> 
 
-             <p id="location"> <i class="fa-solid fa-location-dot"></i></p>
-            
-             <!-- <i class="fa-solid fa-location-dot"></i> -->
-          
+             <div class="weather">
+              <i class="fa-solid fa-cloud"></i>
+             <span id="partly-cloudy">partly cloudy</span>
+             <br><br>
+             <i class="fa-solid fa-droplet"></i>
+             <span id="perc"> precip</span>
            </div>
-
+          <div id="location" class="location">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>  
         </aside>
-           
+        <!-- left side ends here -->
+        <!-- right side starts here -->
         <aside class="right-side">
             <div class="heading">
 
@@ -44,130 +52,131 @@
                 <span>&#8451</span>
                 <span>&#8457</span>
               </ul>
-            
-    
              </div>
             <br>
+<!-- 24hrs cards starts here -->
         <div class="weather-cards">
          <section>
       <span>00:00AM</span>
-      <img src="./assets/weatherIcons/clear-day"   alt="clear day">
+      <img src="./assets/weatherIcons/rain"   id="firstimage" alt="clear day">
       <p id="one">&#8451</p>
          </section>
         
          <section>   
           <span>01:00AM</span>
-          <img src="./assets/weatherIcons/partly-cloudy-day"  alt="clear day">
+          <img src="./assets/weatherIcons/partly-cloudy-day"  id="secondimage" alt="clear day">
           <p id="two">&#8451</p></section>
          <section>
           <span>02:00AM</span>
-          <img src="./assets/weatherIcons/clear-night" alt="clear day">
+          <img src="./assets/weatherIcons/clear-night" id="thirdimage" alt="clear day">
           <p id="three">&#8451</p>
          </section>
          <section>
           <span>03:00AM</span>
-          <img src="./assets/weatherIcons/clear-day"  alt="clear day">
+          <img src="./assets/weatherIcons/clear-day" id="fourthimage"  alt="clear day">
           <p id="four">&#8451</p>
          </section>
          <section>
           <span>04:00AM</span>
-          <img src="./assets/weatherIcons/clear-day"  alt="clear day">
+          <img src="./assets/weatherIcons/clear-day" id="fifthimage" alt="clear day">
           <p id="five">&#8451</p>
          </section>
          <section>
           <span>05:00AM</span>
-          <img src="./assets/weatherIcons/clear-day"  alt="clear day">
+          <img src="./assets/weatherIcons/clear-day"  id="sixthimage" alt="clear day">
           <p id="six">&#8451</p>
          </section>
          <section>
           <span>06:00AM</span>
-          <img src="./assets/weatherIcons/clear-day"  alt="clear day">
+          <img src="./assets/weatherIcons/clear-day" id="seventhimage" alt="clear day">
           <p id="seven">&#8451</p>
          </section>
          <section>
           <span>07:00AM</span>
-          <img src="./assets/weatherIcons/clear-day"  alt="clear day">
+          <img src="./assets/weatherIcons/clear-day" id="eigthimage"  alt="clear day">
           <p id="eight" >&#8451</p>
          </section>
          <section>
           <span>08:00AM</span>
-          <img src="./assets/weatherIcons/clear-day"  alt="clear day">
+          <img src="./assets/weatherIcons/clear-day" id="ninethimage"  alt="clear day">
           <p id="nine">&#8451</p>
          </section>
          <section>
           <span>09:00AM</span>
-          <img src="./assets/weatherIcons/clear-day"  alt="clear day">
+          <img src="./assets/weatherIcons/clear-day" id="tenthimage"  alt="clear day">
           <p id="ten">&#8451</p>
          </section>
          <section>
           <span>10:00AM</span>
-          <img src="./assets/weatherIcons/clear-day"  alt="clear day">
+          <img src="./assets/weatherIcons/clear-day" id="eleventhimage"  alt="clear day">
           <p id="eleven">&#8451</p>
          </section>
          <section>
           <span>11:00AM</span>
-          <img src="./assets/weatherIcons/clear-day"  alt="clear day">
+          <img src="./assets/weatherIcons/clear-day" id="twelvethimage"  alt="clear day">
           <p id="twelve">&#8451</p>
          </section>
          <section>
-          <span>12:00AM</span>
-          <img src="./assets/weatherIcons/clear-day"  alt="clear day">
+          <span>12:00PM</span>
+          <img src="./assets/weatherIcons/clear-day" id="thirteenimage" alt="clear day">
           <p id="thirteen">&#8451</p>
          </section>
          <section>
-          <span>13:00AM</span>
-          <img src="./assets/weatherIcons/clear-day"  alt="clear day">
+          <span>13:00PM</span>
+          <img src="./assets/weatherIcons/clear-day" id="fourteenimage" alt="clear day">
           <p id="fourteen">&#8451</p>
          </section>
          <section>
-          <span>14:00AM</span>
-          <img src="./assets/weatherIcons/clear-day"  alt="clear day">
+          <span>14:00PM</span>
+          <img src="./assets/weatherIcons/clear-day" id="fifteen image"  alt="clear day">
           <p id="fifteen">&#8451</p>
          </section>
          <section>
-          <span>15:00AM</span>
-          <img src="./assets/weatherIcons/clear-day"  alt="clear day">
+          <span>15:00PM</span>
+          <img src="./assets/weatherIcons/clear-day" id="sixteenimage" alt="clear day">
           <p id="sixteen">&#8451</p>
          </section>
          <section>
-          <span>16:00AM</span>
-          <img src="./assets/weatherIcons/clear-day"  alt="clear day">
+          <span>16:00PM</span>
+          <img src="./assets/weatherIcons/clear-day" id="seventeenimage" alt="clear day">
           <p id="seventeen">&#8451</p>
          </section>
          <section>
-          <span>17:00AM</span>
-          <img src="./assets/weatherIcons/clear-day"  alt="clear day">
+          <span>17:00PM</span>
+          <img src="./assets/weatherIcons/clear-day" id="eightteenimage" alt="clear day">
           <p id="eighteen">&#8451</p>
          </section>
          <section>
-          <span>18:00AM</span>
-          <img src="./assets/weatherIcons/clear-day"  alt="clear day">
+          <span>18:00PM</span>
+          <img src="./assets/weatherIcons/clear-night" id="nineteenimage" alt="clear day">
           <p id="nineteen">&#8451</p>
          </section>
          <section>
-          <span>19:00AM</span>
-          <img src="./assets/weatherIcons/clear-day"  alt="clear day">
+          <span>19:00PM</span>
+          <img src="./assets/weatherIcons/partly-cloudy-day" id="twentyimage" alt="clear day">
           <p id="twenty">&#8451</p>
          </section>
          <section>
-          <span>20:00AM</span>
-          <img src="./assets/weatherIcons/clear-day"  alt="clear day">
+          <span>20:00PM</span>
+          <img src="./assets/weatherIcons/partly-cloudy-night" id="twentyoneimage"  alt="clear day">
           <p id="twentyone">&#8451</p>
          </section>
          <section>
-          <span>21:00AM</span>
-          <img src="./assets/weatherIcons/clear-day"  alt="clear day">
+          <span>21:00PM</span>
+          <img src="./assets/weatherIcons/rain" id="twentytwoimage"  alt="clear day">
           <p id="twentytwo">&#8451</p>
          </section>
          <section>
-          <span>22:00AM</span>
-          <img src="./assets/weatherIcons/clear-day"  alt="clear day">
+          <span>22:00PM</span>
+          <img src="./assets/weatherIcons/clear-day" id="twentythreeimage" alt="clear day">
           <p id="twentythree">&#8451</p>
          </section>
-         <section>
-          <span>23:00AM</span>
-          <img src="./assets/weatherIcons/clear-day"  alt="clear day">
+         <section> 
+          <span>23:00PM</span>
+          <img src="./assets/weatherIcons/clear-day" id="twentyfourimage" alt="clear day">
           <p id="twentyfour">&#8451</p>
+        </section>
+        <!-- 24 hrs cards ends here -->
         </div>
         <p>today's highlights</p>
         <div class="highlights">
@@ -191,12 +200,9 @@
           </section>
           </div>
         </aside>
-
     </section>
-            
-       
       </div>
-    <!-- </section> -->
-    <script src="./app.js"></script>t
+<!-- right side ends here -->
+    <script src="./app.js"></script>
   </body>
 </html>
